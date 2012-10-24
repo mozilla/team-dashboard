@@ -317,8 +317,8 @@ require.modules["/bz.js"] = function () {
   this.username = options.username;
   this.password = options.password;
   this.apiUrl = options.url || 
-    (options.test ? "https://api-dev.bugzilla.mozilla.org/test/1.0/"
-                  : "https://api-dev.bugzilla.mozilla.org/1.0/");
+    (options.test ? "https://api-dev.bugzilla.mozilla.org/test/latest/"
+                  : "https://api-dev.bugzilla.mozilla.org/latest/");
 }
 
 BugzillaClient.prototype = {
