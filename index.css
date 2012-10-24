@@ -1,4 +1,4 @@
 body { font-family: sans-serif; }
-div.databox      { position: relative; width: 800px; margin-left: auto; margin-right: auto; background-color: #FFFFFF; margin: 5; padding: 5; border-style: solid; border-color: gray; border-width: 1; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; }
+div.databox      { position: relative; width: 800px; margin-left: auto; margin-right: auto; background-color: #FFFFFF; margin: 5; padding: 5; border-style: solid; border-color: gray; border-width: 1; -webkit-border-radius: 10px; -border-radius: 10px; border-radius: 10px; }
 div.smalltextbox { position: relative; width: 800px; margin-left: auto; margin-right: auto; background-color: #FFFFFF; margin: 5; padding: 5; text-align: center; font-size: 60%; }
 div.headerbox      { position: relative; width: 800px; margin-left: auto; margin-right: auto; background-color: #FFFFFF; margin: 5; padding: 5; text-align: center; }
