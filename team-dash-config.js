@@ -1,4 +1,4 @@
-// Config variables
+// Config variables. By default this contains info for Mozilla networking developers.
 
 var teamMembers = [
   {   id: 'joshmoz',
@@ -18,7 +18,9 @@ var teamMembers = [
   {   id: 'hurley',
     name: 'Nick'},
   {   id: 'cbiesinger',
-    name: 'Christian'}
+    name: 'Christian'},
+  {   id: 'rdow',
+    name: 'Randall'}
 ];
 
 var teamComponents = ['Networking',
