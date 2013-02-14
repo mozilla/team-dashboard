@@ -52,8 +52,8 @@ function addTeamComponentsToQuery(query) {
 }
 
 function addSecurityStatusToQuery(query) {
-  query.whiteboard = ['sg:moderate', 'sg:high', 'sg:crit'];
-  query.whiteboard_type = "contains_any";
+  query.keywords = ['sec-moderate', 'sec-high', 'sec-critical'];
+  query.keywords_type = "contains_any";
 }
 
 function addOpenStatusToQuery(query) {
